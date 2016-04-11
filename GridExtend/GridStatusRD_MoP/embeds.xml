@@ -1,0 +1,9 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="MogushanVaults.lua"/>
+	<Script file="HeartOfFear.lua"/>
+	<Script file="TerraceofEndlessSpring.lua"/>
+	<script file="ShaofAnger.lua"/>
+	<script file="SiegeofOrgrimmar.lua"/>
+	<Script file="ThroneofThunder.lua"/>
+</Ui>

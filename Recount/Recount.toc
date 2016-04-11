@@ -1,0 +1,54 @@
+## Interface: 60200
+## Version: v6.2.3i release
+## Title: Recount
+## Notes: Records Damage and Healing for Graph Based Display
+## Title-zhCN: [多玩] 伤害统计 Recount
+## Notes-zhCN: 伤害/治疗技能的统计插件,可以统计个人和团队.|N|CFF0099FF需要基础函数库|R
+## Title-zhTW: [多玩] 傷害統計 Recount
+## Notes-zhTW: 傷害/治療技能的統計插件,可以統計個人和團隊.|N|CFF0099FF需要基礎函式庫|R
+## Author: Cryect, ported to 2.4 by Elsia
+## SavedVariables: RecountDB
+## SavedVariablesPerCharacter: RecountPerCharDB
+## X-Category: Combat
+## X-DuowanAddon: 团队副本
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+locales\Recount-enUS.lua
+locales\Recount-zhTW.lua
+locales\Recount-zhCN.lua
+
+Recount.lua
+
+Fonts.lua
+colors.lua
+Widgets.lua
+WindowOrder.lua
+
+Fights.lua
+Recount_Modes.lua
+TrackerModules\TrackerModule_Dispels.lua
+TrackerModules\TrackerModule_Interrupts.lua
+TrackerModules\TrackerModule_Resurrection.lua
+TrackerModules\TrackerModule_CCBreakers.lua
+TrackerModules\TrackerModule_PowerGains.lua
+Tracker.lua
+roster.lua
+LazySync.lua
+deletion.lua
+zonefilters.lua
+debug.lua
+
+GUI_Main.lua
+GUI_Detail.lua
+GUI_DeathGraph.lua
+GUI_Graph.lua
+GUI_Reset.lua
+GUI_Report.lua
+GUI_Config.lua
+GUI_Realtime.lua

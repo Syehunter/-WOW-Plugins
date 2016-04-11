@@ -1,0 +1,16 @@
+﻿## Interface: 60200
+## Title: |cff00ff00NPCMark|r
+## Title-zhTW: [多玩] NPC標記(|cff00ff00NPCMark|r)
+## Title-zhCN: [多玩] NPC标记(|cff00ff00NPCMark|r)
+## Version: 0.1.5
+## Author: Terry
+## Notes-zhCN: 在大地图上标记NPC的坐标点。
+## Notes-zhTW: 在大地圖上標記NPC的座標點。
+## SavedVariables: NPCMarkDB, MapMarkHide, NPCMarkVersion
+## X-DuowanAddon: 地图
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 
+
+NPCMark.xml
+

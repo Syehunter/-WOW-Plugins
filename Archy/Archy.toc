@@ -1,0 +1,50 @@
+## Interface: 60200
+## Title: Archy - Archaeology Assistant
+## Title-zhCN: [多玩] 考古学助手
+## Title-zhTW: [多玩] 考古學助手
+## Version: 6.2.3.3
+## Notes: Archaeology assistant
+## Notes-zhCN: 考古学助手
+## Notes-zhTW: 考古學助手
+## Author: Torhal
+## X-Credits: daihenka, Dridzt
+## X-Category: Archaeology
+## SavedVariables: ArchyDB
+## OptionalDeps: Ace3, AceGUI-3.0-SharedMediaWidgets, HereBeDragons-1.0, LibAboutPanel, LibDBIcon-1.0, LibDialog-1.0, LibQTip-1.0, LibSharedMedia-3.0, LibSink-2.0, LibTextDump-1.0, LibToast-1.0
+## X-Curse-Packaged-Version: 6.2.3.3
+## X-Curse-Project-Name: Archy - Archaeology Assistant
+## X-Curse-Project-ID: archy
+## X-Curse-Repository-ID: wow/archy/mainline
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+#@no-lib-strip@
+
+Libs\LibAboutPanel\lib.xml
+
+Libs\LibDialog-1.0\lib.xml
+Libs\LibToast-1.0\lib.xml
+Libs\LibTextDump-1.0\lib.xml
+
+#@end-no-lib-strip@
+
+Locale\enUS.lua
+
+Locale\zhCN.lua
+Locale\zhTW.lua
+
+## Must be loaded first.
+Constants.lua
+
+Database\Digsites.lua
+Database\Artifacts.lua
+Archy.lua
+Interface.xml
+Interface.lua
+Digsite.lua
+Race.lua
+Tooltip.lua
+Config.lua
+TomTomHandler.lua
+Bindings.xml

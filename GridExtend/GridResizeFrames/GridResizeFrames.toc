@@ -1,0 +1,12 @@
+﻿## Interface: 60200
+## Title: GridResizeFrame
+## Notes: New layout with user adjustable frame width settings for each group size.
+## Author: DrJeckel of Hyjal-US
+## Dependencies: Grid
+## Version: 1.0.3-beta2
+## LastUpdate: '2015-04-09 15:03:21 -0700'
+
+
+Locales\Locales.xml
+
+GridResizeFrames.lua

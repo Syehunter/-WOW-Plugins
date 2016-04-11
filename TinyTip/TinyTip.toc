@@ -1,0 +1,23 @@
+## Interface: 60200
+## Author: Thrae (Modified by Hughman)
+## Title: [Duowan] TinyTip 
+## Notes: 格式化显示提示信息
+## Title-zhCN: [多玩] 鼠标信息 TinyTip 
+## Notes-zhCN: 格式化显示提示信息
+## Title-zhTW: [多玩] 鼠標信息 TinyTip 
+## Notes-zhTW: 格式化显示提示信息
+## X-DuowanAddon: 界面聊天
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 
+## Version: 20090305
+## SavedVariables: BagnonForeverDB
+
+TinyTip.lua
+
+#@Bagnon@
+Bagnon_Forever\ui.xml
+Bagnon_Tooltips\ui.xml
+
+#idTip
+idTip.lua

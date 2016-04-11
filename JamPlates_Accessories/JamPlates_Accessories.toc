@@ -1,0 +1,27 @@
+﻿## Interface: 60200
+## Title: [Duowan] JamPlates Accessories
+## Title-zhCN: [多玩] 姓名版增强
+## Notes-zhCN: 在姓名版上显示你和你宠物施放的Buff/Debuff
+## Title-zhTW: [多玩] 姓名版增强
+## Notes-zhTW: 在姓名版上顯示你和你寵物施放的Buff/Debuff
+## Version: 6.2.3.0
+## Author: Jeruku
+## SpecialMentions: Talasonx
+## Notes: Adds de/buffs, threat and combo points to nameplates.
+## SavedVariables: JamPlatesAccessoriesDB
+## SavedVariablesPerCharacter: JamPlatesAccessoriesCP
+## OptionalDeps: JamPlates
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 0
+
+libs\DropDownMenu\UIDropDownMenuTemplates.xml
+libs\DropDownMenu\EasyMenu.lua
+libs\DropDownMenu\UIDropDownMenu.lua
+
+core.lua
+auras.lua
+threat.lua
+combopoints.lua
+combat.lua
+options.lua

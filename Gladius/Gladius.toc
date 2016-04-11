@@ -1,0 +1,37 @@
+﻿## Interface: 60200
+## Title: [Duowan] Gladius
+## Notes: Arena enemy unit frames
+## Title-zhCN: [多玩] 竞技场大师 Gladius
+## Notes-zhCN: 显示竞技场中敌对玩家头像
+## Title-zhTW: [多玩] 競技場大師 Gladius
+## Notes-zhTW: 顯示競技場中敵對玩家頭像
+## Version: 4.3.0
+## Notes: Arena enemy unit frames.
+## Author: Resike and Firebunny. Original author: Proditor
+## SavedVariables: Gladius2DB
+## OptionalDeps: Ace3, LibStub, LibSharedMedia-3.0
+## X-DuowanAddon: PvP
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+libs\DRData-1.0\DRData-1.0.lua
+Gladius.lua
+Localizations.lua
+Options.lua
+
+Modules\HealthBar.lua
+Modules\PowerBar.lua
+Modules\CastBar.lua
+Modules\Auras.lua
+Modules\ClassIcon.lua
+Modules\Trinket.lua
+Modules\Highlight.lua
+Modules\Clicks.lua
+Modules\TargetBar.lua
+Modules\Tags.lua
+Modules\Announcements.lua
+Modules\DRTracker.lua
+Modules\Timer.lua
+Modules\Layout.lua
+Modules\Dispel.lua

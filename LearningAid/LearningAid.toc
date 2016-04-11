@@ -1,0 +1,35 @@
+## Interface: 60200
+## Title: [Duowan] Learning Aid
+## Notes: Displays a bar of spells, abilities, tradeskills, mounts or mini-pets you've just learned.  By Jamash (Kil'jaeden-US)
+## Notes: 新技能提示插件
+## Title-zhCN: [多玩] 法术助手 Learning Aid 
+## Notes-zhCN: 在屏幕上便捷的显示新学会的技能
+## Title-zhTW: [多玩] 法術助手 Learning Aid 
+## Notes-zhTW: 在螢幕上便捷的顯示新學會的技能
+## SavedVariables: LearningAid_Saved
+## SavedVariablesPerCharacter: LearningAid_Character
+## Author: Jamash (Kil'jaeden-US)
+## Version: 1.12b3
+## X-Website: http://wow.curseforge.com/addons/learningaid/
+## X-Category: Interface Enhancements
+## X-DuowanAddon: 界面聊天
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 
+
+
+LearningAid.xml
+LearningAid.lua
+Debug.lua
+Events.lua
+SpellButton.lua
+SpellAPI.lua
+Spell.lua
+ActionBar.lua
+Trainer.lua
+
+
+Locale\enUS.lua
+
+Locale\zhCN.lua
+Locale\zhTW.lua

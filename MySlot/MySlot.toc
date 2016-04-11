@@ -1,0 +1,22 @@
+﻿## Interface: 60200
+## Title: MySlot
+## Title-zhCN: [多玩] 按键配置
+## Title-zhTW: [多玩] 按鍵配置
+## Notes: |cffbc8f8fMemory, restore, save, load your key settings.|r
+## Notes-zhCN: |cff00ff00MySlot|r                                             |cffbc8f8f记忆、恢复、保存、载入您的按键设置。|r
+## Notes-zhTW: |cff00ff00MySlot|r                                             |cffbc8f8f記憶、恢復、保存、載入您的按鍵設置。|r
+## Version: v5.2.2c
+## Author: tg123
+## X-DuowanAddon: 界面聊天
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+## SavedVariables: MySlot_SavedDB
+
+libs\embeds.xml
+
+locales.lua
+keys.lua
+PbMySlot.lua
+MySlot.lua
+MySlot.xml

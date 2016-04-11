@@ -1,0 +1,32 @@
+## Interface: 60200
+## Title: TomTom
+## Title-zhCN: [多玩] 导航助手TomTom
+## Notes-zhCN: 一个简单的导航助手
+## Title-zhTW: [多玩] 導航助手TomTom
+## Notes-zhTW: 一箇簡單的導航助手
+## Author: jnwhiteh
+## Version: v60200-2.0.0
+## License: All Rights Reserved
+## Notes: Acts as your portable navigation assistant
+## Notes-zhCN:一个简单的导航助手。
+## Author: Cladhaire
+## SavedVariables: TomTomDB, TomTomWaypoints, TomTomWaypointsMF
+## X-Localizations: enUS, zhCN, zhTW
+## X-CompatibleLocales: enUS, zhCN, zhTW
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+AddonCore.lua
+
+Localization.enUS.lua
+Localization.zhCN.lua
+Localization.zhTW.lua
+
+TomTom.lua
+TomTom_Waypoints.lua
+TomTom_CrazyArrow.lua
+TomTom_Corpse.lua
+TomTom_POIIntegration.lua
+
+TomTom_Config.lua

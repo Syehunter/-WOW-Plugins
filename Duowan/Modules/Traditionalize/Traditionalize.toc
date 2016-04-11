@@ -1,0 +1,7 @@
+## Interface: 60200
+## Author: Warbaby-二区暗影之月<凌翼>,台服聖光之願<聖殿>
+## Title: |cFFFFFFFF[基]|rTraditionalize-繁体转化助手
+## Notes: 提供聊天文本、邮箱主题的简体转繁体功能
+## Version: 1.6
+database.lua
+Traditionalize.xml

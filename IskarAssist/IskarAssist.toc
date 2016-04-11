@@ -1,0 +1,40 @@
+﻿## Interface: 60200
+## Title: Iskar Assist
+## Title-zhCN: 艾斯卡助手
+## Notes: Helps with the Encounter agaist Iskar on Hellfire Citadel.
+## SavedVariables: IskarAssistDB
+## X-Curse-Packaged-Version: r68
+## X-Curse-Project-Name: Iskar Assist
+## X-Curse-Project-ID: iskar-assist
+## X-Curse-Repository-ID: wow/iskar-assist/mainline
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+Libs\libs.xml
+
+gl\gl2.lua
+IskarAssist.lua
+
+locales\enUS.lua
+locales\zhCN.lua
+locales\zhTW.lua
+
+RaidAssist.lua
+Templates.lua
+OptionsAnchor.lua
+OptionsPanel.lua
+API.lua
+Loot.lua
+
+plugins\raidschedule.lua
+plugins\attendance.lua
+plugins\battleres.lua
+plugins\boards.lua
+plugins\cooldowns.lua
+plugins\playercheck.lua
+plugins\bislist.lua
+plugins\raidbislist.lua
+plugins\invite.lua
+plugins\meters.lua
+plugins\notes.lua

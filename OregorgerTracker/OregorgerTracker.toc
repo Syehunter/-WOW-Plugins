@@ -1,0 +1,20 @@
+﻿## Interface: 60200
+## Title: OregorgerTracker
+## Title-zhCN: 吞噬者奥尔高格助手 OregorgerTracker
+## Title-zhTW: 『吞噬者』礦吞助手 OregorgerTracker
+## Author: Aelobin (The Maelstrom EU)
+## Version: v1.3
+## SavedVariables: OregorgerTrackerDB
+## Notes: Displays roll paths for Oregorger
+## X-Curse-Packaged-Version: v1.3
+## X-Curse-Project-Name: OregorgerTracker
+## X-Curse-Project-ID: oregorgertracker
+## X-Curse-Repository-ID: wow/oregorgertracker/mainline
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+Libs\Embeds.xml
+
+paths.lua
+OregorgerTracker.lua

@@ -1,0 +1,25 @@
+﻿## Interface: 60200
+## Title: Trinket Menu
+## Title-zhCN: [多玩] 饰品管理 TrinketMenu
+## Title-zhTW: [多玩] 飾品管理 TrinketMenu
+## Notes: |cffbc8f8fAddOn to manage trinkets.|r
+## Notes-zhCN: |cff00ff00TrinketMenu|r                                             |cffbc8f8f方便地管理饰品。|r
+## Notes-zhTW: |cff00ff00TrinketMenu|r                                             |cffbc8f8f方便地管理飾品。|r
+## Version: 6.0.1
+## Author: Gello, Resike
+## Notes: Addon to manage trinkets.
+## SavedVariables: TrinketMenuOptions
+## SavedVariablesPerCharacter: TrinketMenuPerOptions, TrinketMenuQueue
+## X-DuowanAddon: 战斗
+## LoadOnDemand: 1
+## Dependencies: Duowan
+## X-Revision: Duowan
+
+TrinketMenu.lua
+TrinketMenu.xml
+TrinketMenuOpt.lua
+TrinketMenuOpt.xml
+TrinketMenuQueue.lua
+TrinketMenuQueue.xml
+TrinketMenuConfig.lua
+localization.lua

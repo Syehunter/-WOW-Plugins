@@ -1,0 +1,18 @@
+## Interface: 60200
+## Title:|cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff0055FFSpell Timers|r
+## Title-zhCN:|cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff0055FF冷却助手|r
+## Title-zhTW:|cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff0055FF冷卻助手|r
+## LoadOnDemand: 1
+## RequiredDeps: DBM-Core
+## Author: Nitram and Tandanu
+## URL: http://www.deadlybossmods.com
+## SavedVariables: DBM_SpellTimers_Settings
+## X-DuowanAddon: 团队副本
+## X-Revision: Duowan
+
+localization.en.lua
+localization.cn.lua
+localization.tw.lua
+
+SpellTimers.lua
+

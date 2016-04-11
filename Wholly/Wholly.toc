@@ -1,0 +1,17 @@
+﻿## Interface: 60200
+## Title: Wholly
+## Notes: Shows quest database and map pins
+## Title-zhCN: [多玩] 可接任务查询
+## Notes-zhCN: 在世界地图上显示可接任务
+## Title-zhTW: [多玩] 可接任務查詢
+## Notes-zhTW: 在世界地圖上顯示可接任務
+## Author: Scott M Harrison
+## Version: 055
+## SavedVariablesPerCharacter: WhollyDatabase
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+## X-DuowanAddon: 地图
+
+Wholly.lua
+Wholly.xml

@@ -1,0 +1,16 @@
+﻿## Interface: 60200
+## Title: [Duowan] BMHelper
+## Notes: 
+## Title-zhCN: [多玩] 武僧助手
+## Notes-zhCN:武僧醉拳坦克助手
+## Title-zhTW: [多玩] 武僧助手
+## Notes-zhTW: 武僧醉拳坦克助手
+## Author: Blue
+## X-DuowanAddon: 职业辅助
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+## SavedVariables: Teleportie_DB
+
+core.lua
+Teleportie.lua

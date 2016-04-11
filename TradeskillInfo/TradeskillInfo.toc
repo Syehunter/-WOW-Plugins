@@ -1,0 +1,40 @@
+## Interface: 60200
+## Title: [Duowan] TradeskillInfo UI
+## Title-zhCN: [多玩] 商业技能信息库 设置 TradeskillInfoUI
+## Title-zhTW: [多玩] 商業技能資訊庫 設置 TradeskillInfoUI
+## Notes: Complete tradeskill information.
+## Notes-zhTW: 完整的商業技能百科
+## Notes-zhCN: 完整的商业技能百科
+## Notes-esES: Informarcion Completa de las Habilidades de Comercio
+## Author: Ethan Centaurai
+## Version: v2.3.6-1-gf290266
+## OptionalDeps: LibStub, CallbackHandler-1.0, Ace3, LibBabble-SubZone-3.0, LibBabble-Faction-3.0, Auc-Advanced
+## SavedVariables: TradeSkillInfoDB
+## X-Credits: Dys, wmrojer, Evenue, Fieroivan, Viruscamp, CMTitan
+## X-Icon: Interface\Icons\INV_Elemental_SpiritOfHarmony_2
+## X-Category: Professions
+## X-Curse-Packaged-Version: v2.3.6-1-gf290266
+## X-Curse-Project-Name: TradeSkillInfo
+## X-Curse-Project-ID: tradeskill-info
+## X-Curse-Repository-ID: wow/tradeskill-info/mainline
+## X-DuowanAddon: 商业物品
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+Locale\enUS.lua
+Locale\zhCN.lua
+Locale\zhTW.lua
+
+TradeskillInfo.lua
+DataBroker.lua
+
+Data\Data.lua
+Data\TradeskillData.lua
+
+TradeskillInfoOptions.lua
+
+#@debug@
+# TradeSkillInfoUI\TradeSkillInfoUI.lua
+# TradeSkillInfoUI\TradeSkillInfoUI.xml
+#@end-debug@

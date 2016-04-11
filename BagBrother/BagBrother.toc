@@ -1,0 +1,18 @@
+## Interface: 60200
+## Title: [Duowan] BagBrother
+## Title-zhCN: [多玩] 离线银行
+## Title-zhTW: [多玩] 离线银
+## Notes: Stores your characters inventory, bank, vault and guild bank, so that you may view them from anywhere.
+## Notes-zhCN: 离线存储你的背包和银行物品，以便随时查看
+## Notes-zhTW: 離綫存儲你的背包和銀行物品，一遍隨時查看
+## Author: Jaliborc (João Cardoso)
+## SavedVariables: BrotherBags
+## X-DuowanAddon: 商业物品
+## Dependencies: Duowan
+## X-Revision: Duowan
+
+Startup.lua
+Events.lua
+API.lua
+
+Tests.lua

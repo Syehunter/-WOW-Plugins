@@ -1,0 +1,7 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+E:\repos\Duowan-Work\UI.xsd">
+
+	<Script file="FixTaint.lua"/>
+	<Script file="LibChatAnims\LibChatAnims.lua"/>
+	<Script file="BlizzBugsSuck.lua"/>
+</Ui>

@@ -1,0 +1,27 @@
+## Interface: 60200
+## Title: [Duowan] EventAlertMod
+## Title-zhCN: [多玩] 技能特效报警 EventAlertMod
+## Title-zhTW: [多玩] 技能特效報警 EventAlertMod
+## Notes: |cffbc8f8fConvenient to set any spell you want to monitor.Interface enhanced by ACDACD
+## Notes-zhCN: 方便快捷的设置你想监视的任何法术。
+## Notes-zhTW: 方便快捷的設置你想監視的任何法術。
+## Author: CurtisTheGreat(AIM) (Special thanks: WoW UI Forums, Crast of the Pub) 永恆滿月
+## Version: 5.0.4
+## SavedVariables: EA_Config, EA_Position, EA_Items, EA_AltItems, EA_TarItems, EA_ScdItems, EA_GrpItems, EA_Pos, EA_SpecFlag
+## X-DuowanAddon: 战斗
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+localization.en.lua
+localization.tw.lua
+localization.cn.lua
+
+EventAlertMod.xml
+EventAlert_Options.xml
+EventAlert_IconOptions.xml
+EventAlert_ClassAlerts.xml
+EventAlert_OtherAlerts.xml
+EventAlert_TargetAlerts.xml
+EventAlert_SCDAlerts.xml
+EventAlert_GroupAlerts.xml

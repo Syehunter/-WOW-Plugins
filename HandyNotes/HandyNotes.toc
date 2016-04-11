@@ -1,0 +1,37 @@
+﻿## Interface: 60200
+## Title: [Duowan] HandyNotes
+## Title-zhCN: [多玩] 地图标记
+## Title-zhTW: [多玩] 地圖標記
+## Notes: Handy notes for your maps
+## Notes-zhCN: 地图标记模块
+## Author: Xinhuan (modify by Eui.cc)
+## Version: v1.4.6
+## DefaultState: enabled
+## X-Category: Map
+## X-eMail: xinhuan @ gmail DOT com
+## OptionalDeps: Ace3, HereBeDragons-1.0
+## X-Curse-Packaged-Version: v1.4.6
+## X-Curse-Project-Name: HandyNotes
+## X-Curse-Project-ID: handynotes
+## X-Curse-Repository-ID: wow/handynotes/mainline
+## RequiredDeps: Duowan
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+## X-DuowanAddon: 地图
+## Dependencies: Duowan
+## X-Revision: Duowan
+
+## SavedVariables: HandyNotesDB, HandyNotes_HandyNotesDB
+
+# Locale files
+Locales\Locale-enUS.lua
+Locales\Locale-zhCN.lua
+Locales\Locale-zhTW.lua
+
+# Core files
+HandyNotes.lua
+HandyNotes_HandyNotes.lua
+HandyNotes_EditFrame.lua
+
+# HandyNotes_WorldMapButton
+HandyNotes_WorldMapButton.lua

@@ -1,0 +1,34 @@
+﻿## Interface: 60200
+## Title: Grail
+## Notes: Knows about quests
+## Title-zhCN: [多玩] 任务指示数据库
+## Notes-zhCN: 提供可接任务提示的数据库
+## Title-zhTW: [多玩] 任務指示數據庫
+## Notes-zhTW: 提供可接任務提示的數據庫
+## Author: Scott M Harrison
+## Version: 076
+## SavedVariables: GrailDatabase
+## SavedVariablesPerCharacter: GrailDatabasePlayer
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+## X-DuowanAddon: 地图
+
+Grail.lua
+
+Grail-Quests.lua
+Grail-Quests-enUS.lua
+Grail-Quests-zhCN.lua
+Grail-Quests-zhTW.lua
+
+Grail-NPCs.lua
+Grail-NPCs-enUS.lua
+Grail-NPCs-zhCN.lua
+Grail-NPCs-zhTW.lua
+
+Grail-BuggedQuests.lua
+
+Grail-Achievements.lua
+Grail-Reputations.lua
+Grail-When.lua
+Grail-Rewards.lua

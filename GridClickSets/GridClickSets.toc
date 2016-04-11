@@ -1,0 +1,16 @@
+﻿## Interface: 60200
+## Title: GridClickSets
+## Notes: Set the clicking action for Grid buttons
+## Title-zhCN: [多玩] 点击施法
+## Notes-zhCN: 为系统团队头像和Grid提供点击施法支持
+## Title-zhTW: [多玩] 點擊施法
+## Notes-zhTW: 為系統團隊頭像和Grid提供點擊施法支持
+## Author: Warbaby
+## Version: 2.0
+## SavedVariablesPerCharacter: GridClickSetsForTalents
+## X-DuowanAddon: 团队副本
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+embeds.xml

@@ -1,0 +1,13 @@
+## Interface: 60200
+## Title: Titan Panel [|cffbc1212Skills|r] |cff00aa001.5|r
+## Notes: Displays Professions on the Titan Panel
+## Author: Kjasi
+## URL: https://bitbucket.org/Kjasi/kjasis-wow-addons
+## X-URL: https://bitbucket.org/Kjasi/kjasis-wow-addons
+## X-Website: https://bitbucket.org/Kjasi/kjasis-wow-addons
+## X-Feedback: https://bitbucket.org/Kjasi/kjasis-wow-addons
+## Dependencies: Titan
+## Version: 1.5
+Localize.lua
+skills.lua
+skills.xml

@@ -1,0 +1,48 @@
+## Interface: 60200
+## Title: [Duoan] Decursive
+## Notes: Affliction display and cleaning for solo, group and raids with advanced filtering and priority system.
+## Notes-zhTW: 提供驅魔輔助功能，包含進階的顯示及過濾功能
+## Title-zhCN: [多玩] 一键驱散 Decursive
+## Title-zhTW: [多玩] 一鍵驅散 Decursive
+## Notes-zhCN: 帮助有驱散技能的职业一键驱散诅咒，魔法，毒等DEBUFF，右键点击插件条弹出设置菜单。
+## Version: 2.7.4.4
+## X-Max-Interface: 60000
+## X-Min-Interface: 60000
+## Author: John Wellesz
+## X-Category: Combat
+## X-LoadOn-Class: Mage, Priest, Paladin, Druid, Hunter, Warlock, Shaman, Monk, Deathknight
+## X-Embeds: Ace3, LibQTip-1.0, LibDataBroker-1.1, LibDBIcon-1.0, !BugGrabber
+## X-Website: http://www.2072productions.com/to/decursive.php
+## X-Credits: Sylvin (Full french translation), Peter Sun, Ananhaid (ZhTW and zhCN translation), Fenlis, Chkid (koKR translation), Hemathio, Swix, Athariel, StingerSoft (Russian Translation), Freydis88, Floyddotnet, Vilogity, Dessa, Farook (German translation)
+## X-AceForum: 4195
+## X-eMail: archarodim@teaser.fr
+## SavedVariables: DecursiveDB
+## X-DuowanAddon: 团队副本
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+embeds.xml
+
+Dcr_DIAG.lua
+Dcr_DIAG.xml
+
+Localization\load.xml
+
+DCR_init.lua
+Dcr_LDB.lua
+Dcr_utils.lua
+Dcr_opt.lua
+Dcr_Events.lua
+Dcr_Raid.lua
+Decursive.lua
+Decursive.xml
+Dcr_lists.lua
+Dcr_lists.xml
+Dcr_DebuffsFrame.lua
+Dcr_DebuffsFrame.xml
+Dcr_LiveList.lua
+Dcr_LiveList.xml
+
+fix.lua
+

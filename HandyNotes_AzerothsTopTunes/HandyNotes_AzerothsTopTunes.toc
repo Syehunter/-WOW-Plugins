@@ -1,0 +1,16 @@
+## Interface: 60200
+## Title: HandyNotes_AzerothsTopTunes
+## Title: [Duowan] HandyNotes_AzerothsTopTunes
+## Title-zhCN: [多玩] 地图标记-要塞点唱机歌曲位置模块
+## Title-zhTW: [多玩] 地圖標記-要塞點唱機歌曲位置模塊
+## Author: Ethan Centaurai
+## Version: v1.2
+## SavedVariables: HandyNotes_AzerothsTopTunesDB
+## RequiredDeps: HandyNotes
+## X-DuowanAddon: 地图
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+#Core.lua
+#Data.lua

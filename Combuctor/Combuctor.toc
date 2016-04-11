@@ -1,0 +1,28 @@
+## Interface: 60200
+## Title: [Duowan] Combuctor
+## Title-zhCN: [多玩] 背包整合 Combuctor
+## Title-zhTW: [多玩] 背包整合 Combuctor
+## Notes: |cffbc8f8fBag Integration and breakups.|r
+## Notes-zhCN: |cff00ff00Combuctor|r                                             |cffbc8f8f背包整合与分类。|r
+## Notes-zhTW: |cff00ff00Combuctor|r 
+## Version: 6.1
+## SavedVariables: CombuctorVersion, CombuctorDB2, BF_VoidStorageDB
+## X-DuowanAddon: 商业物品
+## Dependencies: Duowan
+## X-Revision: Duowan
+
+libs\libs.xml
+localization\localization.xml
+
+main.lua
+api\api.xml
+
+sets\sets.xml
+events\events.xml
+
+templates\templates.xml
+components\components.xml
+
+VoidStorage.lua
+
+Combuctor_Sets\sets.lua

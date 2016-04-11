@@ -1,0 +1,12 @@
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.blizzard.com/wow/ui/">
+  <Script file="..\..\Duowan\lib\NetEaseLibs\Env\Env.lua" />
+  <Include file="..\..\Duowan\lib\NetEaseLibs\LibClass-2.0\LibClass-2.0.xml" />
+  <Include file="..\..\Duowan\lib\NetEaseLibs\LibModule-1.0\LibModule-1.0.xml" />
+  <Include file="..\..\Duowan\lib\NetEaseLibs\NetEaseBase64-1.0\NetEaseBase64-1.0.xml" />
+  <Include file="..\..\Duowan\lib\NetEaseLibs\NetEaseSocketMiddleware-2.0\NetEaseSocketMiddleware-2.0.xml" />
+  <Include file="..\..\Duowan\lib\NetEaseLibs\NetEaseBroadMiddleware-2.0\NetEaseBroadMiddleware-2.0.xml" />
+  <Include file="..\..\Duowan\lib\NetEaseLibs\NetEaseSocket-2.0\NetEaseSocket-2.0.xml" />
+  <Include file="..\..\Duowan\lib\NetEaseLibs\NetEaseGUI-2.0\NetEaseGUI-2.0.xml" />
+  <Script file="..\..\Duowan\lib\NetEaseLibs\crc32\crc32.lua" />
+</Ui>

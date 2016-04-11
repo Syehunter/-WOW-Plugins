@@ -1,0 +1,28 @@
+## Interface: 60200
+## Version: 3.1.11
+## Title: [Duowan] Omen
+## Title-zhCN: [多玩] 仇恨统计 Omen
+## Title-zhTW: [多玩] 仇恨統計 Omen
+## Notes: A lightweight, flexible, multi-target threat meter.
+## Notes-zhCN: 一个灵活的，多目标的，低资源占用的威胁值计量器。
+## Notes-zhTW: 一個輕量級、有彈性、可監視多個目標的仇恨統計插件。
+## Author: Xinhuan
+## X-eMail: xinhuan @ gmail DOT com
+## X-Donate: PayPal:xinhuan @ gmail DOT com
+## X-Category: Combat
+## X-ConfigMode: true
+## SavedVariables: Omen3DB
+## X-DuowanAddon: 团队副本
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+#@libs
+Libs\LibSink-2.0\LibSink-2.0.lua
+#@libs
+
+Localization\enUS.lua
+Localization\zhTW.lua
+Localization\zhCN.lua
+
+Omen.lua

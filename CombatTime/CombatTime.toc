@@ -1,0 +1,19 @@
+## Interface: 60200
+## Title: CombatTime
+## Description: Simple, light-weight, LDB-enabled timer that tracks how long you spend in combat
+## Notes: Simple, light-weight, LDB-enabled timer that tracks how long you spend in combat
+## Title-zhCN: [多玩] 战斗时间
+## Notes-zhCN: 显示进入战斗的持续时间
+## Title-zhTW: [多玩] 戰鬥時間
+## Notes-zhTW: 顯示進入戰鬥的持續時間
+## Author: oscarucb
+## Credits: Portions modified from James Whitehead II, Rick Roe, and the Blizzard Stopwatch code
+## Version: 2.5.1
+## SavedVariablesPerCharacter: CombatTimeSettings
+## X-DuowanAddon: 战斗
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand:1
+
+CombatTime.lua
+CombatTime.xml

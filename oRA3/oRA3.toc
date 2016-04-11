@@ -1,0 +1,44 @@
+﻿## Interface: 60200
+## Title: oRA3
+## Title-zhCN: [多玩] 团队助手
+## Title-zhTW: [多玩] 團隊助手
+## Notes: Raid and Party Assist
+## Notes-zhCN: CT_RaidAssist 外的另一个选择。
+## Notes-zhTW: CT_RaidAssist 以外的另一個選擇。
+## Author: Funkydude, Nebula169
+## Version: 989
+## X-Curse-Project-Name: oRA3
+## X-Curse-Project-ID: ora3
+## X-Curse-Repository-ID: wow/ora3/mainline
+## SavedVariables: oRA3DB
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+libs.xml
+
+locales\enUS.lua
+locales\zhCN.lua
+locales\zhTW.lua
+
+oRA3.lua
+modulePrototype.lua
+
+# module order in options
+modules\BattleRes.lua
+modules\Consumables.lua
+modules\Cooldowns\module.xml
+modules\GuildRepairs.lua
+modules\Rings.lua
+modules\Loot.lua
+modules\ReadyCheck.lua
+# modules with no settings
+modules\Difficulty.lua
+modules\Durability.lua
+modules\Gear.lua
+modules\Invite.lua
+modules\Latency.lua
+modules\Promote.lua
+modules\RoleIcons.lua
+modules\Tanks.lua
+modules\Zone.lua
+

@@ -1,0 +1,29 @@
+## Interface: 60200
+## Title: Skada
+## Title-zhCN: [多玩] 战斗统计 Skada
+## TItle-zhTW: [多玩] 戰鬥統計 Skada
+## Notes: |cffbc8f8fModular damage meter.|r
+## Notes-zhCN: |cff00ff00Skada|r
+## Notes-zhTW: |cff00ff00Skada|r
+## Author: Zarnivoop
+## Version: 1.4-33
+## SavedVariables: SkadaDB
+## SavedVariablesPerCharacter: SkadaPerCharDB
+## X-DuowanAddon: 团队副本
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+lib\SpecializedLibBars-1.0\SpecializedLibBars-1.0.lua
+
+locale\enUS.lua
+locale\zhCN.lua
+locale\zhTW.lua
+
+Skada.lua
+Menus.lua
+Options.lua
+BarDisplay.lua
+
+modules.xml
+

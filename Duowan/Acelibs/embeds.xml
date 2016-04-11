@@ -1,0 +1,38 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+E:\repos\Duowan-Work\UI.xsd">
+	<!-- 对话框 -->
+	<Include file="StacticPopup\StacticPopup.xml"/>
+	<!-- 基本类库 -->
+	<Include file="Ace2\lib.xml"/>
+	<Include file="Ace3\lib.xml"/>
+	<!-- 以下类库根据需要变动 -->
+	
+	<Include file="LibBabble-3.0\lib.xml"/>
+	
+	<Include file="LibVoice-3.0\lib.xml"/>
+	
+	<Script file="Dewdrop-2.0\Dewdrop-2.0.lua"/><!-- 这个库会引起64位崩溃 -->
+	
+	<Script file="LibButtonFacade\LibButtonFacade.lua"/>
+	<Include file="UTF8\lib.xml"/>
+	
+	<Script file="LibTipHooker-1.1\LibTipHooker-1.1.lua"/>
+	<Script file="LibInspectLess-1.0\LibInspectLess-1.0.lua"/>
+	<Script file="LibStatLogic-1.2\LibStatLogic-1.2.lua"/>
+	<Script file="LibDataBroker-1.1\LibDataBroker-1.1.lua"/>
+	<Script file="LibDBIcon-1.0\LibDBIcon-1.0.lua"/>
+	
+	<Script file="LibRangeCheck-2.0\LibRangeCheck-2.0.lua"/>	
+	<Include file="LibInstanceLootData-1.0\lib.xml"/>
+	<Script file="LibWindow-1.1\LibWindow-1.1.lua"/>
+	<Script file="LibSink-2.0\LibSink-2.0.lua"/>
+	<Script file="LibBossIDs-1.0\LibBossIDs-1.0.lua"/>
+	<Script file="LibGraph-2.0\LibGraph-2.0.lua"/>
+	<Script file="LibQTip-1.0\LibQTip-1.0.lua"/>
+	<Script file="SimpleSticky.lua"/>
+	
+	<Script file="LibUnitFrame-1.0\LibUnitFrame-1.0.lua"/>
+
+	<Script file="LibSharedMedia-3.0\LibSharedMedia-3.0.lua"/>
+	<Script file="LibDualSpec-1.0\LibDualSpec-1.0.lua"/>
+</Ui>

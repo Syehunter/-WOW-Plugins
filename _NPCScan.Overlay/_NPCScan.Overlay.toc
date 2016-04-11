@@ -1,0 +1,48 @@
+## Interface: 60200
+## Title: _|cffCCCC88NPCScan.Overlay|r
+## Title-zhCN: [多玩] 稀有精英探测-路径
+## Title-zhTW: [多玩] 稀有精英探測-路径
+## Notes: Adds mob patrol paths to your map.
+## Notes-zhCN: 在你的地图上新增怪物路径图。
+## Notes-zhTW: 在你的地圖上新增怪物路徑圖。
+## Author: Torhal, Saiket
+## X-Credits-Maintainer: SLOKnightfall
+## X-Credits-zhCN: Localization: tss1398383123, zhTW, ananhaid, dh0000
+## X-Credits-zhTW: Localization: s8095324, pepper_ep, zhTW, alpha2009, BNSSNB, titanium0107
+## Version: 6.2.3.3
+## X-Date: 2015-07-07T01:44:07Z
+## X-Category: Map
+## X-License: GPLv3
+## X-Email: jcallahan@curse.com
+## X-WoWI-ID: 14686
+## X-Localizations: enUS, zhCN, zhTW
+## X-CompatibleLocales: enUS, zhCN, zhTW
+## SavedVariables: _NPCScanOverlayOptions, _NPCScanMiniMapIcon, _NPCScanOverlayKeyColors
+
+## X-DuowanAddon:地图
+## Dependencies: _NPCScan
+## X-Revision: Duowan
+## LoadOnDemand: 
+
+
+# See http://wow.curseforge.com/addons/npcscan-overlay/localization/
+Locales\Locale-enUS.lua
+Locales\Locale-zhCN.lua
+Locales\Locale-zhTW.lua
+
+Templates.xml
+Constants.lua
+Overlay.lua
+Config.lua
+ColorConfig.lua
+Modules.lua
+PathData.lua
+
+
+# Canvas modules
+Modules\WorldMapTemplate.lua
+Modules\WorldMap.lua
+Modules\BattlefieldMinimap.lua
+Modules\Minimap.lua
+Modules\OmegaMap.lua
+Modules\Carbonite.lua

@@ -1,0 +1,49 @@
+## Interface: 60200
+## Version: 2.4.26
+## Title: [Duowan] SexyMap
+## Notes: Spice up ye olde minimap with some sexytime options.
+## Title-zhCN: [多玩] 小地图增强 SexyMap
+## Notes-zhCN: 热辣小地图和一些性感计时器选项 SexyMap
+## Title-zhTW: [多玩] 小地圖增強 SexyMap
+## Notes-zhTW: 熱辣小地圖和一些性感計時器選項 SexyMap
+## Author: Funkydude
+## X-Credits: Antiarc (Former Author)
+## OptionalDeps: Ace3, AceGUI-3.0-SharedMediaWidgets, LibSharedMedia-3.0, LibChatAnims, CallbackHandler-1.0, LibStub, Blizzard_TimeManager
+## SavedVariables: SexyMap2DB
+## X-Curse-Packaged-Version: v2.4.24
+## X-Curse-Project-Name: SexyMap
+## X-Curse-Project-ID: sexymap
+## X-Curse-Repository-ID: wow/sexymap/mainline
+## X-DuowanAddon: 地图
+## Dependencies: Duowan
+## X-Revision: Duowan
+## LoadOnDemand: 1
+
+# Libraries, etc
+#@no-lib-strip@
+#embeds.xml
+#@end-no-lib-strip@
+
+
+# Localization
+localization\enUS.lua
+localization\zhTW.lua
+localization\zhCN.lua
+
+# Core
+SexyMap.lua
+
+# Utility, doesn't actually have menu options
+Shapes.lua
+
+# Other modules
+Buttons.lua
+BorderPresets.lua
+Borders.lua
+Clock.lua
+Coordinates.lua
+HudMap.lua
+Movers.lua
+Ping.lua
+ZoneText.lua
+

@@ -1,0 +1,24 @@
+## Interface: 60200
+## Title: [Duowan] RangeDisplay
+## Title-zhCN: [多玩] 距离显示 RangeDisplay
+## Title-zhTW: [多玩] 距離顯示 RangeDisplay
+## Author: mitch0
+## Version: v4.4.0
+## Notes: Estimated range display. Type /rangedisplay for config
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: true
+## SavedVariables: RangeDisplayDB3
+## OptionalDeps: LibStub, CallbackHandler-1.0, LibRangeCheck-2.0, Ace3, LibSharedMedia-3.0, LibDualSpec-1.0
+## Dependencies: Duowan
+## LoadOnDemand: 1
+## X-Revision: Duowan
+## X-DuowanAddon: 距离显示
+## X-Category: Combat
+## X-License: Public Domain
+## X-RelSite-WoWI: 7297
+## X-Credits: sayclub (koKR), lcncg (zhCN, zhTW), Carylon (deDE), Pixel (frFR), Argonavt (ruRU), Swix (ruRU), StingerSoft (ruRU)
+
+localizations\localizations.xml
+
+RangeDisplay.lua
+Options.lua

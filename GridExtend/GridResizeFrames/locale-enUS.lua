@@ -1,0 +1,55 @@
+local addonName, addonTable = ...
+local L = {}
+addonTable.L = L
+
+-- General Strings
+L["GridResizeFrames"] = "GridResizeFrames"
+L["LAYOUT_NAME"] = "Resize Frame"
+L["AUTO_SIZE"] = "Auto resize raid frame"
+L["AUTO_SIZE_DESC"] = "Automatically adjusts frame width/height to raid size"
+
+-- Options Pane Strings
+L["Width"] = "Bar Width Settings"
+L["Height"] = "Bar Height Settings"
+L["OPT_DESC"] = "Adjust the width/height for each group size here. You can have different values from one to eight groups."
+L["ONE_GROUP"] = "Single Group Width"
+L["ONE_GROUP_DESC"] = "Adjust the width of each unit's frame when there is only one group."
+L["TWO_GROUP"] = "Two Group Width"
+L["TWO_GROUP_DESC"] = "Adjust the width of each unit's frame when there are two groups."
+L["THREE_GROUP"] = "Three Group Width"
+L["THREE_GROUP_DESC"] = "Adjust the width of each unit's frame when there are three groups."
+L["FOUR_GROUP"] = "Four Group Width"
+L["FOUR_GROUP_DESC"] = "Adjust the width of each unit's frame when there are four groups."
+L["FIVE_GROUP"] = "Five Group Width"
+L["FIVE_GROUP_DESC"] = "Adjust the width of each unit's frame when there are five groups."
+L["SIX_GROUP"] = "Six Group Width"
+L["SIX_GROUP_DESC"] = "Adjust the width of each unit's frame when there are six groups."
+L["SEVEN_GROUP"] = "Seven Group Width"
+L["SEVEN_GROUP_DESC"] = "Adjust the width of each unit's frame when there are seven groups."
+L["EIGHT_GROUP"] = "Eight Group Width"
+L["EIGHT_GROUP_DESC"] = "Adjust the width of each unit's frame when there are eight groups."
+
+L["ONE_GROUP_H"] = "Single Group Height"
+L["ONE_GROUP_DESC_H"] = "Adjust the height of each unit's frame when there is only one group."
+L["TWO_GROUP_H"] = "Two Group Height"
+L["TWO_GROUP_DESC_H"] = "Adjust the height of each unit's frame when there are two groups."
+L["THREE_GROUP_H"] = "Three Group Height"
+L["THREE_GROUP_DESC_H"] = "Adjust the height of each unit's frame when there are three groups."
+L["FOUR_GROUP_H"] = "Four Group Height"
+L["FOUR_GROUP_DESC_H"] = "Adjust the height of each unit's frame when there are four groups."
+L["FIVE_GROUP_H"] = "Five Group Height"
+L["FIVE_GROUP_DESC_H"] = "Adjust the height of each unit's frame when there are five groups."
+L["SIX_GROUP_H"] = "Six Group Height"
+L["SIX_GROUP_DESC_H"] = "Adjust the height of each unit's frame when there are six groups."
+L["SEVEN_GROUP_H"] = "Seven Group Height"
+L["SEVEN_GROUP_DESC_H"] = "Adjust the height of each unit's frame when there are seven groups."
+L["EIGHT_GROUP_H"] = "Eight Group Height"
+L["EIGHT_GROUP_DESC_H"] = "Adjust the height of each unit's frame when there are eight groups."
+
+-- Debug Strings
+L["DEBUG_INCOMBAT"] = "In combat, waiting to update."
+L["DEBUG_LEAVECOMBAT"] = "Leaving combat, updating now."
+L["DEBUG_NOCHANGE"] = "Number of groups not changing, aborting resize."
+L["DEBUG_CHANGEFROM"] = "Changed number of groups from"
+L["DEBUG_CHANGETO"] = "to"
+L["DEBUG_MAXGROUPS"] = "Max Groups:"
