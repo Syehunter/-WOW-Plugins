@@ -1,0 +1,19 @@
+﻿## Interface: 60000
+## Title: |cff70C0F5[战斗]|r伤害显示
+## Notes: Shows the damage,target heal and the spell name.(Thanks:MagicDragoon and frankcg)
+## Notes-zhTW: 顯示你對目標的傷害，治療及法術名稱。(感謝:MOP討論版的 MagicDragoon 和 frankcg 對DEX的改進幫助) 
+## X-Repple: Combat
+## Version: 3.02
+## Author: Dennie
+## Localization-zhTW: Ghostar 星魂 (CWDG)
+## SavedVariablesPerCharacter: DEX_SAVE
+## OptionalDeps: myAddOns
+## Dependencies:
+
+localization.lua
+localization_zhCN.lua
+localization_zhTW.lua
+
+DEX_ui_path.lua
+DamageEx.xml
+DEXoptions.xml
